@@ -33,14 +33,9 @@ def Preprocessing_module(title, text):
     lemmatizer = WordNetLemmatizer()
     tokens = [lemmatizer.lemmatize(word) for word in tokens]
 
-    return tokens
+    cleaned_string = " ".join(tokens)
+
+
+    return cleaned_string
 
 # Sample input
-title = "This is the title of the reading and studying the most wanted ball BLock"
-text = "My name is Roshan Bhatta and you know who I am"
-
-# Run preprocessing
-processed_tokens = Preprocessing_module(title, text)
-
-# Output
-print("Processed Tokens:\n", processed_tokens)
