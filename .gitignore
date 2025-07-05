@@ -8,7 +8,7 @@ __pycache__/
 .ipynb_checkpoints
 roshan/
 bin/
-Data/
+Data/fake_news_dataset.csv
 
 *.csv
 
