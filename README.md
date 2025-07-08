@@ -1,22 +1,22 @@
-# 📰 Fake News Detection using Machine Learning
+#  Fake News Detection using Machine Learning
 
 This project aims to detect fake news articles using  machine learning techniques.
 
-## 🚀 Features
+## Features
 
 - Data preprocessing (cleaning, tokenization)
 - TF-IDF vectorization
 - Classification using Random Forest
 - Model evaluation (accuracy, confusion matrix)
 
-## 📁 Dataset
+##  Dataset
 
 - Source: Kaggle
 - Format: CSV file with `text` and `label` columns  
   - `clean_text`: News content  
   - `label`: 0 (fake) or 1 (real)
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Python
 - Pandas, NumPy
@@ -24,7 +24,7 @@ This project aims to detect fake news articles using  machine learning technique
 - TfidfVectorizer
 - Matplotlib (for visualization)
 
-## 📦 How to Run
+## How to Run
 
 ```bash
 # 1. Clone the repo
